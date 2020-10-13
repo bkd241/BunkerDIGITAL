@@ -1,0 +1,201 @@
+         body {
+             font-family: 'Titillium Web', sans-serif;
+         }
+         
+         @media (max-width: 640px) {
+             body {
+                 padding: 0%;
+                 background-color: whitesmoke;
+                 text-align: center;
+             }
+             body a {
+                 text-align: center;
+             }
+             .header img {
+                 width: 82%;
+
+             }
+             .navbar-brand{
+                padding-left:50px!important;
+             }
+            nav #navbarNavAltMarkup,.navbar-toggler, section #info-five{
+                visibility: hidden;
+                display:none!important;
+            }
+         }
+         
+         .navbar-brand {
+             font-size: 40px;
+             font-weight: bold;
+         }
+         /**-- Submenu */
+         
+         .navbar-brand .navbar div div li div {
+             background: #000;
+             color: #fff;
+         }
+         
+         .navbar div div li {
+             background: #FFB533;
+             font-weight: bold;
+             border-radius: 10px;
+         }
+         
+         .navbar div div li div {
+             background: #343a40;
+             opacity: 0.95;
+         }
+         
+         .navbar div div li div a {
+             font-size: 18px;
+             color: white !important;
+         }
+         
+         .navbar div a:hover {
+             background: #FFB533;
+             border-radius: 10px;
+         }
+         
+         #header #BKD span,
+         strong {
+             font-size: 40px;
+         }
+         
+         #header #BKD {
+             background: #fff;
+             min-height: 155%;
+         }
+         
+         #header #BKD p {
+             font-size: 20px;
+         }
+         
+         #marcas {
+             padding: 50px 0 30px 0;
+             text-align: center;
+             margin-top: 40px;
+         }
+         
+         #info-one {
+             background: whitesmoke;
+         }
+         
+         #info-tree {
+             background: rgba(233, 141, 49, 0.3);
+         }
+         
+         #info-five {
+             background: rgba(233, 141, 49, 0.3);
+         }
+         /*** Flecha animada **/
+         
+         #flecha {
+             animation-duration: 2s;
+             animation-name: arrow;
+             animation-iteration-count: 3;
+         }
+         
+         div div div div a.active {
+             background: #FFB533 !important;
+             color: #fff;
+             border-color: #FFB533 !important;
+         }
+         
+         #vitrina div div p ul li.active {
+             background: #FFB533 !important;
+             color: #fff;
+             border-color: #FFB533 !important;
+         }
+         /* ↓ Aqui estoy ↓ */
+         /* ↑ Fin Aqui estoy ↑ */
+         
+         div div div div a {
+             color: #000;
+             font-weight: bold;
+         }
+         
+         div div div div a:hover {
+             font-size: 22px;
+             background-color: #FFB533;
+             color: #fff;
+         }
+         
+         @keyframes arrow {
+             from {
+                 bottom: 1050px;
+             }
+             50% {
+                 width: 7%;
+             }
+             to {
+                 bottom: 110px;
+             }
+         }
+         
+         iframe:focus {
+             outline: none;
+         }
+         
+         iframe[seamless] {
+             display: block;
+         }
+         /**-- <!--Carlos Bravo 11/SEPT/2020 DIY Version 0.0.1--> */
+         /*----------Social Buttons---*/
+         
+         .social {
+             position: fixed;
+             /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+             left: 0;
+             /* Establecemos la barra en la izquierda */
+             top: 200px;
+             /* Bajamos la barra 200px de arriba a abajo */
+             z-index: 2000;
+             /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+         }
+         
+         .social ul {
+             list-style: none;
+         }
+         
+         .social ul li a {
+             display: inline-block;
+             color: #fff;
+             background: #000;
+             padding: 10px 15px;
+             text-decoration: none;
+             -webkit-transition: all 500ms ease;
+             -o-transition: all 500ms ease;
+             transition: all 500ms ease;
+             /* Establecemos una transición a todas las propiedades */
+         }
+         /* Establecemos los colores de cada red social, aprovechando su class */
+         
+         .social ul li #TW {
+             background: #1DA1F2;
+         }
+         
+         .social ul li #INS {
+             background: #E1306C;
+         }
+         
+         .social ul li #WS {
+             background: #4AC959;
+         }
+         
+         .social ul li #EMAIL {
+             background: #DB4437;
+         }
+         /* Establecemos los colores de cada red social, aprovechando su class */
+         
+         .social ul li a:hover {
+             background: #000;
+             /* Cambiamos el fondo cuando el usuario pase el mouse */
+             padding: 10px 40px;
+             /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+         }
+         
+         footer a {
+             color: white !important;
+         }
+         /* Folk de FalconMaster.com */
+         /* BunkerDIGITAL 2020 */
