@@ -1,0 +1,15 @@
+User-Agent: *
+Disallow: 
+Allow: /index.html
+Allow: /cdnbkd.html
+Allow: /sh0pbkdce.html
+Allow: /sh0pbkdcctv.html
+Allow: /sh0pbkddsc.html
+Allow: /contacto.html
+Disallow: /cloud.html
+Allow: /disqus.html
+Allow: /m4ndsc.html
+Allow: /m4ndsc_temp.html
+Allow: /services_SA.html
+Disallow: /modal.html
+Allow: /sitemap.xml
